@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+        <input type = “text” onkeypress = " readOuts()" id="input">
+    <div id= "body">
+        <h1>Keycode Generator</h1>
+        <p id=“prompt”>Press any key to show JavaScript event details</p>
+        
+
+        <div id="readOuts">
+            <div class="inputLabelPair">
+                <label for="numberRead">event.which</label>
+                <input id ="numberRead" type="number" readonly>
+            </div>
+
+            <div class="inputLabelPair">
+                <label for="codeRead">event.code</label> 
+                <input id ="codeRead" type="text" readonly>
+            </div>
+
+            <div class="inputLabelPair">
+                <label for="keyRead">event.key</label> 
+                <input id ="keyRead" type="text" readonly>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </div>      
+</body>
+</html>
